@@ -37,46 +37,59 @@ To get a local copy up and running, follow these steps:
    ```
 3. Install the dependencies
 
-   ````bash
+   ```bash
    npm install
+   ```
 
    or
+
    ```bash
    yarn install
-
-   ````
+   ```
 
 ### Running the Development Server
 
 Start the Nuxt.js development server:
 
-````bash
+```bash
 npm run dev
+```
 
 or
+
 ```bash
 yarn dev
+```
+
 Visit http://localhost:3000 in your browser to see the website.
 
 ### Building for Production
 
 To build the project for production:
+
 ```bash
 npm run build
+```
 
 or
+
 ```bash
 yarn build
+```
 
 ### Deploying
 
 After building the project, you can start the server in production mode using:
+
 ```bash
 npm run start
+```
 
 or
+
 ```bash
 yarn start
+```
 
 ### Project Structure
 
@@ -92,10 +105,10 @@ Here's an overview of the main project structure:
 
 - **Data Folder**: /CreativeAgency/header.json, services.json | /Blog, header.json\
 
-
 ### Customization
 
 Feel free to customize this project according to your needs:
+
 - **Content**: Update the content in the pages/index.vue file with your personal details.
 - **Styling**: Modify the styles in the assets directory.
 - **Components**: Add or update components in the components directory to include different sections like 'About Me,' 'Projects,' 'Skills,' etc.
@@ -114,4 +127,3 @@ If you have any questions or suggestions, feel free to reach out:
 
 - **Email**: fawwazmufidw.dev@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/fawwaz-mufid-wardaya/
-````
