@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/dark/assets/imgs/works/1/muhammadiyah.png",
+    "title": "Website Muhammadiyah Majenang",
+    "subTitle": "Web Development",
+    "link": "https://muhammadiyahmajenang.netlify.app/"
+  },
+  {
+    "img": "/dark/assets/imgs/works/1/yuwaraja.png",
+    "title": "Student Website Yuwaraja Vokasi Brawijaya University",
+    "subTitle": "Web Development",
+    "link": "https://yuwaraja.site/"
+  },
+  {
+    "img": "/dark/assets/imgs/works/1/goksta.png",
+    "title": "Blog Website Goksta",
+    "subTitle": "Web Development",
+    "link": "https://github.com/fawwazmw/Goksta.git"
+  },
+  {
+    "img": "/dark/assets/imgs/works/1/wazflix.png",
+    "title": "Movie App List Ratings, Details, etc",
+    "subTitle": "Mobile App Development",
+    "link": "https://github.com/fawwazmw/wazflix.git"
+  }
+]

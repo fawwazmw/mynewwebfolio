@@ -1,0 +1,30 @@
+[
+  {
+    "img": "/dark/assets/imgs/testim/testi.png",
+    "name": "Ardi Darma",
+    "section": "Design Quality",
+    "subName": "Mahasiswa",
+    "desc": "I've collaborated on several projects as a student, but I've hardly ever seen this caliber of professionalism. It was a pleasure to work with a team that could complete the project effectively and on schedule."
+  },
+  {
+    "img": "/dark/assets/imgs/testim/testi.png",
+    "section": "Website Performace",
+    "name": "Vara Agustina",
+    "subName": "Mahasiswa",
+    "desc": "I have worked on numerous website development assignments and projects as a student, but I have seldom come across a website that performs as well as this one. There are no issues and every page loads promptly because to the incredible access speed. The user experience improves significantly, and it greatly facilitates the completion of tasks quickly. It has the feel of an extremely well-optimized platform."
+  },
+  {
+    "img": "/dark/assets/imgs/testim/testi.png",
+    "name": "Budi Setiawan",
+    "section": "Website Performance",
+    "subName": "Dosen",
+    "desc": "As a lecturer, I frequently observe students using a variety of websites and platforms for homework and learning. Still, not many websites provide this kind of versatility. Because of the functionality and design's high degree of adaptability, users can alter different aspects to suit their demands without compromising performance. In the field of education, this flexibility is crucial since it enables different user types—including lecturers and students—to maximize the platform's potential."
+  },
+  {
+    "img": "/dark/assets/imgs/testim/testi.png",
+    "name": "Wawan Rizky",
+    "section": "Mobile Development",
+    "subName": "Pekerja Freelance",
+    "desc": "In my many years as a freelancer in this industry, I have never worked with a degree of professionalism as I did on this project. It really was as if I was working with a strong, motivated team that could finish the project on schedule. My portfolio's mobile development area won numerous awards for its excellent, timely work that consistently met the client's expectations."
+  }
+]
