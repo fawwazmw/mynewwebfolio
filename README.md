@@ -36,11 +36,14 @@ To get a local copy up and running, follow these steps:
    cd personal-profile
    ```
 3. Install the dependencies
+
    ````bash
    npm install
+
    or
    ```bash
    yarn install
+
    ````
 
 ### Running the Development Server
@@ -49,6 +52,7 @@ Start the Nuxt.js development server:
 
 ````bash
 npm run dev
+
 or
 ```bash
 yarn dev
@@ -59,7 +63,9 @@ Visit http://localhost:3000 in your browser to see the website.
 To build the project for production:
 ```bash
 npm run build
+
 or
+```bash
 yarn build
 
 ### Deploying
@@ -67,8 +73,10 @@ yarn build
 After building the project, you can start the server in production mode using:
 ```bash
 npm run start
+
 or
-```yarn start
+```bash
+yarn start
 
 ### Project Structure
 
