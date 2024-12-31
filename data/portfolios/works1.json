@@ -1,26 +1,79 @@
 [
   {
+    "id": 1,
     "img": "/dark/assets/imgs/works/1/muhammadiyah.png",
     "title": "Website Muhammadiyah Majenang",
     "subTitle": "Web Development",
     "link": "https://muhammadiyahmajenang.netlify.app/"
   },
   {
+    "id": 2,
     "img": "/dark/assets/imgs/works/1/yuwaraja.png",
     "title": "Student Website Yuwaraja Vokasi Brawijaya University",
     "subTitle": "Web Development",
     "link": "https://yuwaraja.site/"
   },
   {
+    "id": 3,
     "img": "/dark/assets/imgs/works/1/goksta.png",
     "title": "Blog Website Goksta",
     "subTitle": "Web Development",
     "link": "https://github.com/fawwazmw/Goksta.git"
   },
   {
+    "id": 4,
     "img": "/dark/assets/imgs/works/1/wazflix.png",
     "title": "Movie App List Ratings, Details, etc",
     "subTitle": "Mobile App Development",
     "link": "https://github.com/fawwazmw/wazflix.git"
+  },
+  {
+    "id": 5,
+    "img": "/dark/assets/imgs/works/1/creanomic.png",
+    "title": "Official Website Creanomic Brawijaya University",
+    "subTitle": "Web Development",
+    "link": "https://github.com/fawwazmw/creanomic24.git"
+  },
+  {
+    "id": 6,
+    "img": "/dark/assets/imgs/works/1/youlibrary.png",
+    "title": "Website Management Library",
+    "subTitle": "Web Development",
+    "link": "https://github.com/fawwazmw/library-frontend.git"
+  },
+  {
+    "id": 7,
+    "img": "/dark/assets/imgs/works/1/uangkoofunk.png",
+    "title": "Management Money App uangkoofunk by Funks.dev",
+    "subTitle": "Mobile App Development",
+    "link": "https://github.com/fawwazmw/uangkoo_funks.git"
+  },
+  {
+    "id": 8,
+    "img": "/dark/assets/imgs/works/1/spotq.png",
+    "title": "Website Booking Cafe SpotQ by Funks.dev",
+    "subTitle": "Website Development",
+    "link": "https://github.com/fawwazmw/spotq-frontend.git"
+  },
+  {
+    "id": 9,
+    "img": "/dark/assets/imgs/works/1/sibi.png",
+    "title": "AI SIBI language detector",
+    "subTitle": "Python Development",
+    "link": "https://github.com/fawwazmw/sibi-language-detector-fwzdev.git"
+  },
+  {
+    "id": 10,
+    "img": "/dark/assets/imgs/works/1/funksnet.png",
+    "title": "Website Internet Cafe Booking by Funks.dev",
+    "subTitle": "Website Development",
+    "link": "https://github.com/funks-dev/funks-net.git"
+  },
+  {
+    "id": 11,
+    "img": "/dark/assets/imgs/works/1/pet.png",
+    "title": "Mobile App Pet Doctor MyHealthyPet by Funks.dev",
+    "subTitle": "Mobile App Development",
+    "link": "https://github.com/fawwazmw/klinik-hewan-app.git"
   }
 ]

@@ -10,14 +10,6 @@
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2>What people <span class="fw-200">say?</span></h2>
           <div class="ml-auto">
-            <div class="swiper-arrow-control">
-              <div class="swiper-button-prev">
-                <span class="ti-arrow-left"></span>
-              </div>
-              <div class="swiper-button-next">
-                <span class="ti-arrow-right"></span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

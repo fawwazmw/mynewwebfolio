@@ -5,16 +5,6 @@
         <h6 class="sub-title main-color mb-25">Our Portfolio</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2>Our featured <span class="fw-200">projects</span></h2>
-          <div class="ml-auto">
-            <div class="swiper-arrow-control">
-              <div class="swiper-button-prev">
-                <span class="ti-arrow-left"></span>
-              </div>
-              <div class="swiper-button-next">
-                <span class="ti-arrow-right"></span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div class="work-swiper-center">
