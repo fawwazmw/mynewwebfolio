@@ -52,9 +52,7 @@
               </h2>
               <div class="text mt-15">
                 <p>
-                  We dedicated our skills to creating innovative digital
-                  solutions because we want our work to make a meaningful,
-                  positive impact on users’ lives.
+                  I dedicate my skills to creating innovative digital solutions because I want our work to have a meaningful positive impact on users' lives.
                 </p>
               </div>
             </div>
@@ -74,7 +72,7 @@
                       <h6 class="nowrap fz-16">Address :</h6>
                     </div>
                     <div class="ml-20">
-                      <p class="fz-14">Indonesia Jawa Tengah Cilacap 53257</p>
+                      <p class="fz-14">Indonesia Jawa Tengah Cilacap</p>
                     </div>
                   </div>
                 </div>
@@ -99,7 +97,7 @@
               </div>
             </div>
             <a
-              href="/dark/assets/imgs/resume/cv.pdf"
+              href="/dark/assets/imgs/resume/cvfawwazmw.pdf"
               class="butn butn-md main-colorbg radius-30 mt-40"
             >
               <span class="text-dark">Download CV</span>
