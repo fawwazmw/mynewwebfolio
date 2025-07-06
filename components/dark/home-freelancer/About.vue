@@ -97,7 +97,7 @@
               </div>
             </div>
             <a
-              href="/dark/assets/imgs/resume/cvfawwazmw.pdf"
+              href="/dark/assets/imgs/resume/fawwazmwcv.pdf"
               class="butn butn-md main-colorbg radius-30 mt-40"
             >
               <span class="text-dark">Download CV</span>
