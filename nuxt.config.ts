@@ -16,7 +16,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "FWZ.dev | Portofolio",
+      title: "FWZdev | Full Stack Developer & Web Designer Portfolio",
+      titleTemplate: '%s - FWZdev',
       htmlAttrs: {
         lang: "en",
       },
@@ -34,19 +35,89 @@ export default defineNuxtConfig({
         },
         {
           name: "keywords",
-          content: "Vue Nuxtjs webfolio",
+          content: "full stack developer, web developer, web designer, vue developer, nuxt developer, javascript developer, frontend developer, backend developer, UI UX designer, portfolio website, web development services, fwzdev.my.id, fawwaz developer, indonesia web developer",
         },
         {
           name: "description",
-          content: "FWZ.dev - Web Portofolio with Nuxtjs",
+          content: "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
         },
         {
           name: "author",
-          content: "FWZ.dev",
+          content: "FWZdev",
+        },
+        {
+          name: "robots",
+          content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        },
+        {
+          name: "googlebot",
+          content: "index, follow",
+        },
+        // Open Graph / Facebook
+        {
+          property: "og:type",
+          content: "website",
+        },
+        {
+          property: "og:url",
+          content: "https://fwzdev.my.id/",
+        },
+        {
+          property: "og:title",
+          content: "FWZdev | Full Stack Developer & Web Designer Portfolio",
+        },
+        {
+          property: "og:description",
+          content: "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+        },
+        {
+          property: "og:image",
+          content: "https://fwzdev.my.id/og-image.jpg",
+        },
+        {
+          property: "og:site_name",
+          content: "FWZdev",
+        },
+        {
+          property: "og:locale",
+          content: "en_US",
+        },
+        // Twitter
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:url",
+          content: "https://fwzdev.my.id/",
+        },
+        {
+          name: "twitter:title",
+          content: "FWZdev | Full Stack Developer & Web Designer Portfolio",
+        },
+        {
+          name: "twitter:description",
+          content: "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+        },
+        {
+          name: "twitter:image",
+          content: "https://fwzdev.my.id/og-image.jpg",
+        },
+        // Additional SEO
+        {
+          name: "theme-color",
+          content: "#000000",
+        },
+        {
+          name: "msapplication-TileColor",
+          content: "#000000",
         },
       ],
       link: [
         { rel: "shortcut icon", href: "/dark/assets/imgs/fwzlogo.ico" },
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "canonical", href: "https://fwzdev.my.id/" },
+        { rel: "manifest", href: "/manifest.json" },
         // Google Fonts
         {
           rel: "stylesheet",
