@@ -18,8 +18,8 @@
               </span>
             </h2>
             <p class="mt-10">
-              If you would like to work with us or just want to get in touch,
-              we’d love to hear from you!
+              If you would like to work with me or just want to get in touch,
+              I’d love to hear from you!
             </p>
             <div class="phone fz-30 fw-600 mt-80 underline main-color">
               <a href="https://wa.me/+6289527374152">+62 895 2737 4152</a>

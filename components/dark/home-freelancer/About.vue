@@ -11,7 +11,7 @@
             <div class="d-flex align-items-center">
               <div>
                 <div class="info">
-                  <h3 class="main-color fz-50 line-height-1">1</h3>
+                  <h3 class="main-color fz-50 line-height-1">3</h3>
                   <p class="nowrap">
                     Years of
                     <br />
@@ -52,7 +52,7 @@
               </h2>
               <div class="text mt-15">
                 <p>
-                  I dedicate my skills to creating innovative digital solutions because I want our work to have a meaningful positive impact on users' lives.
+                  I dedicate my skills to creating innovative digital solutions because I want my work to have a meaningful positive impact on users' lives.
                 </p>
               </div>
             </div>

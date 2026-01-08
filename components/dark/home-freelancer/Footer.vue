@@ -29,7 +29,7 @@
                 <a href="/dark/page-about3">Careers</a>
               </li> -->
               <li class="ml-30">
-                <a href="javascript:void(0)" id="section-6">Contact Us</a>
+                <a href="javascript:void(0)" id="section-6">Contact Me</a>
               </li>
             </ul>
           </div>

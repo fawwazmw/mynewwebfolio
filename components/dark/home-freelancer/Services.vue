@@ -6,9 +6,9 @@
   >
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Specialize</h6>
+        <h6 class="sub-title main-color mb-25">My Specialize</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
-          <h2>What We <span class="fw-200">Offer</span></h2>
+          <h2>What I <span class="fw-200">Offer</span></h2>
           <!-- <div class="ml-auto">
             <a href="/dark/page-services" class="go-more">
               <span class="text">View all services</span>
@@ -23,7 +23,7 @@
             <div class="ti-paint-bucket main-color fz-50 mb-40"></div>
             <h5 class="mb-15">UI / UX Design</h5>
             <p>
-              Collaborative sessions where we identify main challenges and
+              Collaborative sessions where I identify main challenges and
               opportunities before building a strategic plan moving forward.
             </p>
             <!-- <a href="/dark/page-services-details" class="rmore mt-30">
@@ -41,7 +41,7 @@
             <div class="ti-layout-slider main-color fz-50 mb-40"></div>
             <h5 class="mb-15">Web Development</h5>
             <p>
-              Custom websites where we solve your unique challenges while
+              Custom websites where I solve your unique challenges while
               ensuring responsive, scalable, and high-performance digital
               solutions.
             </p>
@@ -60,7 +60,7 @@
             <div class="ti-rocket main-color fz-50 mb-40"></div>
             <h5 class="mb-15">App Development</h5>
             <p>
-              Mobile and web apps where we focus on user needs and technology,
+              Mobile and web apps where I focus on user needs and technology,
               creating functional, scalable, and engaging digital experiences.
             </p>
             <!-- <a href="/dark/page-services-details" class="rmore mt-30">

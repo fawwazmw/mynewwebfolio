@@ -2,8 +2,8 @@
   <div class="my-skills2" id="section-3">
     <div class="container">
       <div class="sec-head text-center mb-80">
-        <h6 class="sub-title main-color mb-15">Our Portfolio</h6>
-        <h2>Our featured <span class="fw-200">projects</span></h2>
+        <h6 class="sub-title main-color mb-15">My Portfolio</h6>
+        <h2>My featured <span class="fw-200">projects</span></h2>
       </div>
       <div class="row md-marg">
         <div class="col-lg-2 col-md-4 col-6">

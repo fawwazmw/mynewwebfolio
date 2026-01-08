@@ -6,7 +6,7 @@
   >
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Blog</h6>
+        <h6 class="sub-title main-color mb-25">My Blog</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600">Read Latest <span class="fw-200">News</span></h2>
           <div class="ml-auto">
@@ -58,7 +58,7 @@
               </div>
               <h5>
                 <a href="/dark/blog-details">
-                  Creative advertising in our life became a info noise
+                  Creative advertising in my life became a info noise
                 </a>
               </h5>
             </div>
@@ -104,7 +104,7 @@
               </div>
               <h5>
                 <a href="/dark/blog-details">
-                  Creative advertising in our life became a info noise
+                  Creative advertising in my life became a info noise
                 </a>
               </h5>
             </div>
@@ -150,7 +150,7 @@
               </div>
               <h5>
                 <a href="/dark/blog-details">
-                  We create some things for your success in growth
+                  I create some things for your success in growth
                 </a>
               </h5>
             </div>

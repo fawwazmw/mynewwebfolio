@@ -114,8 +114,8 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: "shortcut icon", href: "/dark/assets/imgs/fwzlogo.ico" },
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "shortcut icon", href: "/dark/assets/imgs/logo-tab-fwzdev.png" },
+        { rel: "icon", type: "image/png", href: "/dark/assets/imgs/logo-tab-fwzdev.png" },
         { rel: "canonical", href: "https://fwzdev.my.id/" },
         { rel: "manifest", href: "/manifest.json" },
         // Google Fonts

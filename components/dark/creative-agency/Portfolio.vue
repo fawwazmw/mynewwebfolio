@@ -2,7 +2,7 @@
   <section class="portfolio-carousel section-padding">
     <div class="container">
       <div class="sec-head mb-80">
-        <h6 class="sub-title main-color mb-25">Our Portfolio</h6>
+        <h6 class="sub-title main-color mb-25">My Portfolio</h6>
         <div class="bord pt-25 bord-thin-top d-flex align-items-center">
           <h2 class="fw-600 text-u ls1">
             Our featured <span class="fw-200">projects</span>
