@@ -11,9 +11,11 @@
     </div>
     <div class="caption">
       <h1 class="up stroke">
-        <span>I&#39;m a MOBILE</span> <span>Developer</span>
+        <span>I&#39;m a FRONTEND</span> <span>Developer</span>
       </h1>
-      <h1 class="down"><span>I&#39;m a MOBILE</span> <span>Developer</span></h1>
+      <h1 class="down">
+        <span>I&#39;m a FRONTEND</span> <span>Developer</span>
+      </h1>
     </div>
   </header>
 </template>
