@@ -10,12 +10,8 @@
       </div>
     </div>
     <div class="caption">
-      <h1 class="up stroke">
-        <span>I&#39;m a FRONTEND</span> <span>Developer</span>
-      </h1>
-      <h1 class="down">
-        <span>I&#39;m a FRONTEND</span> <span>Developer</span>
-      </h1>
+      <h1 class="up stroke"><span>FRONTEND</span> <span>Developer</span></h1>
+      <h1 class="down"><span>FRONTEND</span> <span>Developer</span></h1>
     </div>
   </header>
 </template>
