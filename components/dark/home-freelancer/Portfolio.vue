@@ -61,14 +61,14 @@
 </template>
 
 <script setup>
-import data from "@/data/portfolios/works1";
+import data from "@/data/portfolios/works1.json";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Navigation, Autoplay } from "swiper";
 
 const swiperOptions = {
   modules: [Navigation, Autoplay],
   speed: 1000,
-  loop: true,
+  loop: false,
   autoplay: {
     delay: 8000,
     disableOnInteraction: true,
@@ -77,19 +77,19 @@ const swiperOptions = {
   navigation: true,
   breakpoints: {
     640: {
-      loop: true,
+      loop: false,
       slidesPerView: 1,
       spaceBetween: 20,
       centeredSlides: false,
     },
     768: {
-      loop: true,
+      loop: false,
       slidesPerView: 2,
       spaceBetween: 50,
       centeredSlides: false,
     },
     1200: {
-      loop: true,
+      loop: false,
       slidesPerView: 2,
       spaceBetween: 100,
       centeredSlides: true,

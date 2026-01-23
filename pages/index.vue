@@ -49,9 +49,9 @@ useHead({
       children: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Person',
-        name: 'FWZ Developer',
-        url: 'https://fwzdev.my.id',
-        image: 'https://fwzdev.my.id/og-image.jpg',
+        name: 'WardAYA DEV Developer',
+        url: 'https://wardayadev.my.id',
+        image: 'https://wardayadev.my.id/og-image.jpg',
         sameAs: [
           'https://github.com/fawwazmw',
           'https://linkedin.com/in/fawwazmw',
@@ -59,7 +59,7 @@ useHead({
         jobTitle: 'Full Stack Developer & Web Designer',
         worksFor: {
           '@type': 'Organization',
-          name: 'FWZdev',
+          name: 'WardAYA DEV',
         },
         description: 'Professional Full Stack Developer specializing in Vue.js, Nuxt.js, and modern web technologies',
       })
@@ -69,8 +69,8 @@ useHead({
       children: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'FWZdev Portfolio',
-        url: 'https://fwzdev.my.id',
+        name: 'WardAYA DEV Portfolio',
+        url: 'https://wardayadev.my.id',
         description: 'Professional Full Stack Developer & Web Designer Portfolio',
         inLanguage: 'en-US',
       })
@@ -79,11 +79,11 @@ useHead({
 });
 
 useSeoMeta({
-  title: 'FWZdev | Full Stack Developer & Web Designer Portfolio',
-  ogTitle: 'FWZdev | Full Stack Developer & Web Designer Portfolio',
+  title: 'WardAYA DEV | Full Stack Developer & Web Designer Portfolio',
+  ogTitle: 'WardAYA DEV | Full Stack Developer & Web Designer Portfolio',
   description: 'Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.',
   ogDescription: 'Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.',
-  ogImage: 'https://fwzdev.my.id/og-image.jpg',
+  ogImage: 'https://wardayadev.my.id/og-image.jpg',
   twitterCard: 'summary_large_image',
 });
 

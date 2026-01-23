@@ -4,13 +4,13 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 md-mb15">
           <div class="logo icon-img-100">
-            <img src="/dark/assets/imgs/logo-fwzdev.png" alt="" />
+            <img src="/dark/assets/imgs/logo-wardayadev.png" alt="" />
           </div>
         </div>
         <div class="col-lg-4 order-md-3">
           <div class="text-center">
             <p class="fz-14">
-              © 2024 FWZdev is Proudly Powered by
+              © 2024 WardAYA DEV is Proudly Powered by
               <span class="underline main-color">
                 <a href="https://www.instagram.com/fwzmwrdy?igsh=MWx5dW9uMXhycWJtbw==" target="_blank">
                   Myself

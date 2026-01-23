@@ -1,4 +1,4 @@
-# FWZdev - Full Stack Developer Portfolio
+# WardAYA DEV - Full Stack Developer Portfolio
 
 Professional portfolio website showcasing web development projects and services.
 

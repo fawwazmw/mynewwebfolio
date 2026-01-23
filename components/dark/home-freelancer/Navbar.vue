@@ -6,7 +6,7 @@
         href="javascript:void(0)"
         @click="scrollToSection(0)"
       >
-        <img src="/dark/assets/imgs/logo-fwzdev.png" alt="logo" />
+        <img src="/dark/assets/imgs/logo-wardayadev.png" alt="logo" />
       </a>
 
       <button
