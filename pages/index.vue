@@ -56,13 +56,13 @@ useHead({
           "https://github.com/fawwazmw",
           "https://linkedin.com/in/fawwazmw",
         ],
-        jobTitle: "Full Stack Developer & Web Designer",
+        jobTitle: "Frontend Developer & Web Designer",
         worksFor: {
           "@type": "Organization",
           name: "Wardaya DEV",
         },
         description:
-          "Professional Full Stack Developer specializing in Vue.js, Nuxt.js, and modern web technologies",
+          "Professional Frontend Developer specializing in Vue.js, Nuxt.js, and modern web technologies",
       }),
     },
     {
@@ -72,8 +72,7 @@ useHead({
         "@type": "WebSite",
         name: "Wardaya DEV Portfolio",
         url: "https://dev.wardaya.my.id",
-        description:
-          "Professional Full Stack Developer & Web Designer Portfolio",
+        description: "Professional Frontend Developer & Web Designer Portfolio",
         inLanguage: "en-US",
       }),
     },
@@ -81,12 +80,12 @@ useHead({
 });
 
 useSeoMeta({
-  title: "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
-  ogTitle: "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
+  title: "Wardaya DEV | Frontend Developer & Web Designer Portfolio",
+  ogTitle: "Wardaya DEV | Frontend Developer & Web Designer Portfolio",
   description:
-    "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
+    "Professional Frontend Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
   ogDescription:
-    "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+    "Professional Frontend Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
   ogImage: "https://dev.wardaya.my.id/og-image.jpg",
   twitterCard: "summary_large_image",
 });

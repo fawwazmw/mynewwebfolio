@@ -1,4 +1,4 @@
-# Wardaya DEV - Full Stack Developer Portfolio
+# Wardaya DEV - Frontend Developer Portfolio
 
 Professional portfolio website showcasing web development projects and services.
 

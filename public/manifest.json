@@ -1,7 +1,7 @@
 {
-  "name": "Wardaya DEV - Full Stack Developer Portfolio",
+  "name": "Wardaya DEV - Frontend Developer Portfolio",
   "short_name": "Wardaya DEV",
-  "description": "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+  "description": "Professional Frontend Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",

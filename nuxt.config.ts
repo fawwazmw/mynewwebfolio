@@ -16,7 +16,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
+      title: "Wardaya DEV | frontend Developer & Web Designer Portfolio",
       titleTemplate: "%s - Wardaya DEV",
       htmlAttrs: {
         lang: "en",
@@ -36,12 +36,12 @@ export default defineNuxtConfig({
         {
           name: "keywords",
           content:
-            "full stack developer, web developer, web designer, vue developer, nuxt developer, javascript developer, frontend developer, backend developer, UI UX designer, portfolio website, web development services, wardayadev.my.id, wardaya dev developer, indonesia web developer",
+            "frontend developer, web developer, web designer, vue developer, nuxt developer, javascript developer, frontend developer, backend developer, UI UX designer, portfolio website, web development services, wardayadev.my.id, wardaya dev developer, indonesia web developer",
         },
         {
           name: "description",
           content:
-            "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
+            "Professional Frontend Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
         },
         {
           name: "author",
@@ -67,13 +67,12 @@ export default defineNuxtConfig({
         },
         {
           property: "og:title",
-          content:
-            "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
+          content: "Wardaya DEV | Frontend Developer & Web Designer Portfolio",
         },
         {
           property: "og:description",
           content:
-            "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+            "Professional Frontend Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
         },
         {
           property: "og:image",
@@ -98,13 +97,12 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:title",
-          content:
-            "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
+          content: "Wardaya DEV | Frontend Developer & Web Designer Portfolio",
         },
         {
           name: "twitter:description",
           content:
-            "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+            "Professional Frontend Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
         },
         {
           name: "twitter:image",
