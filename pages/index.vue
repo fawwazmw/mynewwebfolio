@@ -45,46 +45,50 @@ useHead({
   ],
   script: [
     {
-      type: 'application/ld+json',
+      type: "application/ld+json",
       children: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Person',
-        name: 'WardAYA DEV Developer',
-        url: 'https://wardayadev.my.id',
-        image: 'https://wardayadev.my.id/og-image.jpg',
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Wardaya DEV Developer",
+        url: "https://dev.wardaya.my.id",
+        image: "https://dev.wardaya.my.id/og-image.jpg",
         sameAs: [
-          'https://github.com/fawwazmw',
-          'https://linkedin.com/in/fawwazmw',
+          "https://github.com/fawwazmw",
+          "https://linkedin.com/in/fawwazmw",
         ],
-        jobTitle: 'Full Stack Developer & Web Designer',
+        jobTitle: "Full Stack Developer & Web Designer",
         worksFor: {
-          '@type': 'Organization',
-          name: 'WardAYA DEV',
+          "@type": "Organization",
+          name: "Wardaya DEV",
         },
-        description: 'Professional Full Stack Developer specializing in Vue.js, Nuxt.js, and modern web technologies',
-      })
+        description:
+          "Professional Full Stack Developer specializing in Vue.js, Nuxt.js, and modern web technologies",
+      }),
     },
     {
-      type: 'application/ld+json',
+      type: "application/ld+json",
       children: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        name: 'WardAYA DEV Portfolio',
-        url: 'https://wardayadev.my.id',
-        description: 'Professional Full Stack Developer & Web Designer Portfolio',
-        inLanguage: 'en-US',
-      })
-    }
-  ]
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "Wardaya DEV Portfolio",
+        url: "https://dev.wardaya.my.id",
+        description:
+          "Professional Full Stack Developer & Web Designer Portfolio",
+        inLanguage: "en-US",
+      }),
+    },
+  ],
 });
 
 useSeoMeta({
-  title: 'WardAYA DEV | Full Stack Developer & Web Designer Portfolio',
-  ogTitle: 'WardAYA DEV | Full Stack Developer & Web Designer Portfolio',
-  description: 'Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.',
-  ogDescription: 'Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.',
-  ogImage: 'https://wardayadev.my.id/og-image.jpg',
-  twitterCard: 'summary_large_image',
+  title: "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
+  ogTitle: "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
+  description:
+    "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
+  ogDescription:
+    "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+  ogImage: "https://dev.wardaya.my.id/og-image.jpg",
+  twitterCard: "summary_large_image",
 });
 
 onMounted(() => {

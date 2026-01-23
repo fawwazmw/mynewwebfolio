@@ -16,8 +16,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "WardAYA DEV | Full Stack Developer & Web Designer Portfolio",
-      titleTemplate: '%s - WardAYA DEV',
+      title: "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
+      titleTemplate: "%s - Wardaya DEV",
       htmlAttrs: {
         lang: "en",
       },
@@ -35,19 +35,22 @@ export default defineNuxtConfig({
         },
         {
           name: "keywords",
-          content: "full stack developer, web developer, web designer, vue developer, nuxt developer, javascript developer, frontend developer, backend developer, UI UX designer, portfolio website, web development services, wardayadev.my.id, wardaya dev developer, indonesia web developer",
+          content:
+            "full stack developer, web developer, web designer, vue developer, nuxt developer, javascript developer, frontend developer, backend developer, UI UX designer, portfolio website, web development services, wardayadev.my.id, wardaya dev developer, indonesia web developer",
         },
         {
           name: "description",
-          content: "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
+          content:
+            "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies. Creating responsive, SEO-friendly, and high-performance web applications.",
         },
         {
           name: "author",
-          content: "WardAYA DEV",
+          content: "Wardaya DEV",
         },
         {
           name: "robots",
-          content: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+          content:
+            "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
         },
         {
           name: "googlebot",
@@ -60,23 +63,25 @@ export default defineNuxtConfig({
         },
         {
           property: "og:url",
-          content: "https://wardayadev.my.id/",
+          content: "https://dev.wardaya.my.id/",
         },
         {
           property: "og:title",
-          content: "WardAYA DEV | Full Stack Developer & Web Designer Portfolio",
+          content:
+            "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
         },
         {
           property: "og:description",
-          content: "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+          content:
+            "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
         },
         {
           property: "og:image",
-          content: "https://wardayadev.my.id/og-image.jpg",
+          content: "https://dev.wardaya.my.id/og-image.jpg",
         },
         {
           property: "og:site_name",
-          content: "WardAYA DEV",
+          content: "Wardaya DEV",
         },
         {
           property: "og:locale",
@@ -89,19 +94,21 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:url",
-          content: "https://wardayadev.my.id/",
+          content: "https://dev.wardaya.my.id/",
         },
         {
           name: "twitter:title",
-          content: "WardAYA DEV | Full Stack Developer & Web Designer Portfolio",
+          content:
+            "Wardaya DEV | Full Stack Developer & Web Designer Portfolio",
         },
         {
           name: "twitter:description",
-          content: "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
+          content:
+            "Professional Full Stack Developer & Web Designer Portfolio. Specialized in Vue.js, Nuxt.js, and modern web technologies.",
         },
         {
           name: "twitter:image",
-          content: "https://wardayadev.my.id/og-image.jpg",
+          content: "https://dev.wardaya.my.id/og-image.jpg",
         },
         // Additional SEO
         {
@@ -114,9 +121,16 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: "shortcut icon", href: "/dark/assets/imgs/logo-tab-wardayadev.png" },
-        { rel: "icon", type: "image/png", href: "/dark/assets/imgs/logo-tab-wardayadev.png" },
-        { rel: "canonical", href: "https://wardayadev.my.id/" },
+        {
+          rel: "shortcut icon",
+          href: "/dark/assets/imgs/logo-tab-wardayadev.png",
+        },
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/dark/assets/imgs/logo-tab-wardayadev.png",
+        },
+        { rel: "canonical", href: "https://dev.wardaya.my.id/" },
         { rel: "manifest", href: "/manifest.json" },
         // Google Fonts
         {

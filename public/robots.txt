@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://wardayadev.my.id/sitemap.xml
+Sitemap: https://dev.wardaya.my.id/sitemap.xml
 
 # Crawl-delay (optional, adjust as needed)
 Crawl-delay: 1

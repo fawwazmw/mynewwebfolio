@@ -10,9 +10,12 @@
         <div class="col-lg-4 order-md-3">
           <div class="text-center">
             <p class="fz-14">
-              © 2024 WardAYA DEV is Proudly Powered by
+              © 2024 Wardaya DEV is Proudly Powered by
               <span class="underline main-color">
-                <a href="https://www.instagram.com/fwzmwrdy?igsh=MWx5dW9uMXhycWJtbw==" target="_blank">
+                <a
+                  href="https://www.instagram.com/fwzmwrdy?igsh=MWx5dW9uMXhycWJtbw=="
+                  target="_blank"
+                >
                   Myself
                 </a>
               </span>
