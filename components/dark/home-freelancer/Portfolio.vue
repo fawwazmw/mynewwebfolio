@@ -1,5 +1,5 @@
 <template>
-  <section class="portfolio-carsouel section-padding" data-scroll-index="3">
+  <section class="portfolio-carsouel section-padding" id="section-4" data-scroll-index="4">
     <div class="container">
       <div class="sec-head mb-80">
         <h6 class="sub-title main-color mb-25">My Portfolio</h6>
@@ -29,7 +29,7 @@
                   <p>{{ item.subTitle }}</p>
                 </div>
                 <div class="ml-auto">
-                  <a :href="item.link" class="rmore" target="_blank">
+                  <a :href="item.link" class="rmore" target="_blank" rel="noopener noreferrer">
                     <img
                       src="/dark/assets/imgs/arrow-right.png"
                       alt="Read more"
@@ -44,12 +44,12 @@
         
         <!-- Floating Navigation Buttons -->
         <div class="floating-nav-buttons">
-          <button id="portfolio-prev-btn" class="nav-btn prev-btn">
+          <button id="portfolio-prev-btn" class="nav-btn prev-btn" aria-label="Previous project">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="15 18 9 12 15 6"></polyline>
             </svg>
           </button>
-          <button id="portfolio-next-btn" class="nav-btn next-btn">
+          <button id="portfolio-next-btn" class="nav-btn next-btn" aria-label="Next project">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
@@ -63,33 +63,25 @@
 <script setup>
 import data from "@/data/portfolios/works1.json";
 import { Swiper, SwiperSlide } from "swiper/vue";
-import { Navigation, Autoplay } from "swiper";
+import { Navigation } from "swiper";
 
 const swiperOptions = {
-  modules: [Navigation, Autoplay],
+  modules: [Navigation],
   speed: 1000,
-  loop: false,
-  autoplay: {
-    delay: 8000,
-    disableOnInteraction: true,
-    pauseOnMouseEnter: true,
-  },
+  loop: true,
   navigation: true,
   breakpoints: {
     640: {
-      loop: false,
       slidesPerView: 1,
       spaceBetween: 20,
       centeredSlides: false,
     },
     768: {
-      loop: false,
       slidesPerView: 2,
       spaceBetween: 50,
       centeredSlides: false,
     },
     1200: {
-      loop: false,
       slidesPerView: 2,
       spaceBetween: 100,
       centeredSlides: true,

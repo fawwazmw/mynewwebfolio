@@ -21,7 +21,7 @@
               </div>
               <div>
                 <div class="img fit-img radius-30">
-                  <img src="/dark/assets/imgs/intro/fwz2.png" alt="" />
+                  <img src="/dark/assets/imgs/intro/fwz2.png" alt="Fawwaz Mufid Wardaya" />
                 </div>
               </div>
             </div>

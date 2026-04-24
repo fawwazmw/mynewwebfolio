@@ -4,7 +4,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="img">
-            <img src="/dark/assets/imgs/intro/fawwazmw.png" alt="" />
+            <img src="/dark/assets/imgs/intro/fawwazmw.png" alt="Fawwaz Mufid Wardaya - Frontend Developer" />
           </div>
         </div>
       </div>

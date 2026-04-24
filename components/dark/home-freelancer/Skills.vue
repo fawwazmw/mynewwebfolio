@@ -2,15 +2,15 @@
   <div class="my-skills2" id="section-3">
     <div class="container">
       <div class="sec-head text-center mb-80">
-        <h6 class="sub-title main-color mb-15">My Portfolio</h6>
-        <h2>My featured <span class="fw-200">projects</span></h2>
+        <h6 class="sub-title main-color mb-15">My Skills</h6>
+        <h2>My technical <span class="fw-200">skills</span></h2>
       </div>
       <div class="row md-marg">
         <div class="col-lg-2 col-md-4 col-6">
           <div class="item mb-30">
             <div class="box-bord main-bg">
               <div class="img">
-                <img src="/dark/assets/imgs/resume/s1.png" alt="" />
+                <img src="/dark/assets/imgs/resume/s1.png" alt="UI/UX Design" />
               </div>
               <span class="value">80%</span>
             </div>
@@ -21,7 +21,7 @@
           <div class="item mb-30">
             <div class="box-bord main-bg">
               <div class="img">
-                <img src="/dark/assets/imgs/resume/s2.png" alt="" />
+                <img src="/dark/assets/imgs/resume/s2.png" alt="Development" />
               </div>
               <span class="value">90%</span>
             </div>
@@ -32,7 +32,7 @@
           <div class="item mb-30">
             <div class="box-bord main-bg">
               <div class="img">
-                <img src="/dark/assets/imgs/resume/s3.png" alt="" />
+                <img src="/dark/assets/imgs/resume/s3.png" alt="Graphic Design" />
               </div>
               <span class="value">75%</span>
             </div>
@@ -43,7 +43,7 @@
           <div class="item mb-30">
             <div class="box-bord main-bg">
               <div class="img">
-                <img src="/dark/assets/imgs/resume/s5.png" alt="" />
+                <img src="/dark/assets/imgs/resume/s5.png" alt="Sketch" />
               </div>
               <span class="value">80%</span>
             </div>
@@ -54,7 +54,7 @@
           <div class="item mb-30">
             <div class="box-bord main-bg">
               <div class="img">
-                <img src="/dark/assets/imgs/resume/s4.png" alt="" />
+                <img src="/dark/assets/imgs/resume/s4.png" alt="WordPress" />
               </div>
               <span class="value">70%</span>
             </div>
@@ -65,7 +65,7 @@
           <div class="item mb-30">
             <div class="box-bord main-bg">
               <div class="img">
-                <img src="/dark/assets/imgs/resume/s6.png" alt="" />
+                <img src="/dark/assets/imgs/resume/s6.png" alt="Graphic Design" />
               </div>
               <span class="value">85%</span>
             </div>

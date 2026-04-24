@@ -12,8 +12,8 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -61,7 +61,7 @@
               href="javascript:void(0)"
               @click="scrollToSection(3)"
             >
-              <span class="rolling-text">Portfolio</span>
+              <span class="rolling-text">Skills</span>
             </a>
           </li>
           <li class="nav-item">
@@ -70,18 +70,18 @@
               href="javascript:void(0)"
               @click="scrollToSection(4)"
             >
-              <span class="rolling-text">Clients</span>
+              <span class="rolling-text">Portfolio</span>
             </a>
           </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a
               class="nav-link"
               href="javascript:void(0)"
               @click="scrollToSection(5)"
             >
-              <span class="rolling-text">Blog</span>
+              <span class="rolling-text">Testimonials</span>
             </a>
-          </li> -->
+          </li>
           <li class="nav-item">
             <a
               class="nav-link"
@@ -98,7 +98,7 @@
 </template>
 
 <script setup>
-import { onMounted, onUnmounted, ref } from "vue";
+import { onMounted, onUnmounted } from "vue";
 
 // Handle scroll event for navbar animation
 function handleScroll() {
@@ -131,106 +131,7 @@ onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
 
-// Hamenu toggle logic
-const isOpen = ref(false);
-function toggleMenu() {
-  const hamenu = document.querySelector(".hamenu");
-  isOpen.value = !isOpen.value;
-  setTimeout(() => {
-    isOpen.value == false
-      ? (hamenu.style.left = "-100%")
-      : (hamenu.style.left = "0");
-  }, 300);
-}
 
-function closeMenu() {
-  const hamenu = document.querySelector(".hamenu");
-
-  isOpen.value = false;
-  setTimeout(() => {
-    hamenu.style.left = "-100%";
-  }, 300);
-}
-
-// Dropdown menu handling
-function handleDropdownMouseMove(event) {
-  event.currentTarget.querySelector(".dropdown-menu").classList.add("show");
-}
-
-function handleDropdownMouseLeave(event) {
-  event.currentTarget.querySelector(".dropdown-menu").classList.remove("show");
-}
-
-function handleMouseEnter(event) {
-  document.querySelectorAll("ul.main-menu li").forEach((item) => {
-    item.classList.add("hoverd");
-  });
-  event.currentTarget.classList.remove("hoverd");
-}
-
-function handleMouseLeave() {
-  document
-    .querySelectorAll("ul.main-menu li")
-    .forEach((item) => item.classList.remove("hoverd"));
-}
-
-function toggleSubMenu(event) {
-  const subMenu = event.currentTarget.querySelector(".sub-menu");
-  const SubMenu2 = event.currentTarget.querySelector(".sub-menu2");
-  if (subMenu) {
-    if (subMenu.classList.contains("sub-open") && SubMenu2 == null) {
-      document.querySelectorAll(".sub-menu").forEach((item) => {
-        item.classList.remove("sub-open");
-        item.style.maxHeight = "0";
-        item.previousElementSibling.children[0].classList.remove("dopen");
-      });
-      subMenu.classList.remove("sub-open");
-      subMenu.style.maxHeight = "0";
-      subMenu.previousElementSibling.children[0].classList.remove("dopen");
-    } else if (!subMenu.classList.contains("sub-open")) {
-      if (SubMenu2 == null) {
-        document.querySelectorAll(".sub-menu").forEach((item) => {
-          item.classList.remove("sub-open");
-          item.style.maxHeight = "0";
-          item.previousElementSibling.children[0].classList.remove("dopen");
-        });
-
-        subMenu.classList.add("sub-open");
-        subMenu.style.maxHeight = "450px";
-        subMenu.previousElementSibling.children[0].classList.add("dopen");
-      } else {
-        subMenu.classList.add("sub-open");
-        subMenu.style.maxHeight = "450px";
-        subMenu.previousElementSibling.children[0].classList.add("dopen");
-      }
-    }
-  }
-}
-
-function toggleSubMenu2(event) {
-  const SubMenu2 = event.currentTarget.querySelector(".sub-menu2");
-  if (SubMenu2) {
-    if (SubMenu2.classList.contains("sub-open")) {
-      event.currentTarget.querySelectorAll(".sub-menu2").forEach((item) => {
-        item.classList.remove("sub-open");
-        item.style.maxHeight = "0";
-        item.previousElementSibling.children[0].classList.remove("dopen");
-      });
-      SubMenu2.classList.remove("sub-open");
-      SubMenu2.style.maxHeight = "0";
-      SubMenu2.previousElementSibling.children[0].classList.remove("dopen");
-    } else if (!SubMenu2.classList.contains("sub-open")) {
-      event.currentTarget.querySelectorAll(".sub-menu2").forEach((item) => {
-        item.classList.remove("sub-open");
-        item.style.maxHeight = "0";
-        item.previousElementSibling.children[0].classList.remove("dopen");
-      });
-      SubMenu2.classList.add("sub-open");
-      SubMenu2.style.maxHeight = "450px";
-      SubMenu2.previousElementSibling.children[0].classList.add("dopen");
-    }
-  }
-}
 </script>
 
 <style scoped>

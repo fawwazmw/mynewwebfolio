@@ -1,8 +1,8 @@
 <template>
   <section
     class="testim-crev section-padding"
-    id="section-4"
-    data-scroll-index="4"
+    id="section-5"
+    data-scroll-index="5"
   >
     <div class="container">
       <div class="sec-head mb-80">
@@ -37,7 +37,7 @@
                 <div class="info mt-40">
                   <div class="img-curv">
                     <div class="img">
-                      <img :src="item.img" alt="" />
+                      <img :src="item.img" :alt="item.name" />
                     </div>
                   </div>
                   <div class="ml-20">

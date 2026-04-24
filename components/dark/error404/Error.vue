@@ -5,13 +5,13 @@
         <div class="row justify-content-center">
           <div class="col-lg-5">
             <div class="img">
-              <img src="/dark/assets/imgs/404.png" alt="" />
+              <img src="/dark/assets/imgs/404.png" alt="404 Page Not Found" />
             </div>
             <div class="text mt-40">
               <h2 class="mb-10">Page not found</h2>
               <p>Sorry, but the page you are looking for does not exist.</p>
               <a
-                href="/dark/home-main"
+                href="/"
                 class="butn butn-md butn-bg main-colorbg text-dark radius-30 mt-30"
               >
                 <span class="text">Back to Home</span>

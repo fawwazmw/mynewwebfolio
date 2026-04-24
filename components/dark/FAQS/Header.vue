@@ -8,7 +8,7 @@
       <div class="text-center">
         <h1 class="fz-100 text-u">FAQS.</h1>
         <div class="mt-15">
-          <a href="/dark/home-main">Home</a>
+          <a href="/">Home</a>
           <span class="padding-rl-20">|</span>
           <span class="main-color">FAQS</span>
         </div>
@@ -17,6 +17,7 @@
   </header>
 </template>
 <script setup>
+import { onMounted } from 'vue';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 
 onMounted(() => {

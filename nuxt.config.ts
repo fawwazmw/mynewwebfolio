@@ -16,8 +16,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Wardaya DEV | frontend Developer & Web Designer Portfolio",
-      titleTemplate: "%s - Wardaya DEV",
+      title: "Wardaya DEV | Frontend Developer & Web Designer Portfolio",
+      titleTemplate: "%s",
       htmlAttrs: {
         lang: "en",
       },
@@ -128,7 +128,8 @@ export default defineNuxtConfig({
           type: "image/png",
           href: "/dark/assets/imgs/logo-tab-wardayadev.png",
         },
-        { rel: "canonical", href: "https://dev.wardaya.my.id/" },
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
+        { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
         { rel: "manifest", href: "/manifest.json" },
         // Google Fonts
         {
@@ -141,17 +142,14 @@ export default defineNuxtConfig({
         },
       ],
       script: [
-        { src: "/dark/assets/js/plugins.js" },
-        { src: "/dark/assets/js/TweenMax.min.js" },
-        { src: "/dark/assets/js/charming.min.js" },
-        { src: "/dark/assets/js/countdown.js" },
-        { src: "/dark/assets/js/ScrollTrigger.min.js" },
-        { src: "/dark/assets/js/gsap.min.js" },
-        { src: "/dark/assets/js/splitting.min.js" },
-        { src: "/dark/assets/js/isotope.pkgd.min.js" },
-        { src: "/dark/assets/js/imgReveal/imagesloaded.pkgd.min.js" },
-        { src: "/dark/assets/js/ScrollSmoother.min.js" },
-        // { src: '/showcase/dark/assets/js/anime.min.js' },
+        { src: "/dark/assets/js/plugins.js", defer: true },
+        { src: "/dark/assets/js/gsap.min.js", defer: true },
+        { src: "/dark/assets/js/ScrollTrigger.min.js", defer: true },
+        { src: "/dark/assets/js/ScrollSmoother.min.js", defer: true },
+        { src: "/dark/assets/js/charming.min.js", defer: true },
+        { src: "/dark/assets/js/splitting.min.js", defer: true },
+        { src: "/dark/assets/js/isotope.pkgd.min.js", defer: true },
+        { src: "/dark/assets/js/imagesloaded.pkgd.min.js", defer: true },
         { src: "/dark/assets/js/scripts.js", defer: true },
       ],
     },

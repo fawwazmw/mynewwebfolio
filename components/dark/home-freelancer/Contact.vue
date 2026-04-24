@@ -29,6 +29,8 @@
                 <a
                   href="https://www.facebook.com/FawwazMufidW"
                   class="hover-this"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span class="hover-anim">Facebook</span>
                 </a>
@@ -37,6 +39,8 @@
                 <a
                   href="https://x.com/didegamers123?t=SiOrLUh-lgE3gHE2w96StA&s=08"
                   class="hover-this"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span class="hover-anim">X</span>
                 </a>
@@ -45,6 +49,8 @@
                 <a
                   href="https://www.linkedin.com/in/fawwaz-mufid-wardaya/"
                   class="hover-this"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span class="hover-anim">LinkedIn</span>
                 </a>
@@ -53,6 +59,8 @@
                 <a
                   href="https://www.instagram.com/fwzmwrdy?igsh=MWx5dW9uMXhycWJtbw=="
                   class="hover-this"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span class="hover-anim">Instagram</span>
                 </a>
@@ -68,11 +76,14 @@
               <div class="controls row">
                 <div class="col-lg-6">
                   <div class="form-group mb-30">
+                    <label for="contact-name" class="visually-hidden">Name</label>
                     <input
+                      id="contact-name"
                       v-model="formData.name"
                       type="text"
                       name="name"
                       placeholder="Name"
+                      aria-label="Your name"
                       required
                     />
                   </div>
@@ -80,11 +91,14 @@
 
                 <div class="col-lg-6">
                   <div class="form-group mb-30">
+                    <label for="contact-email" class="visually-hidden">Email</label>
                     <input
+                      id="contact-email"
                       v-model="formData.email"
                       type="email"
                       name="email"
                       placeholder="Email"
+                      aria-label="Your email"
                       required
                     />
                   </div>
@@ -92,21 +106,27 @@
 
                 <div class="col-12">
                   <div class="form-group mb-30">
+                    <label for="contact-subject" class="visually-hidden">Subject</label>
                     <input
+                      id="contact-subject"
                       v-model="formData.subject"
                       type="text"
                       name="subject"
                       placeholder="Subject"
+                      aria-label="Subject"
                     />
                   </div>
                 </div>
 
                 <div class="col-12">
                   <div class="form-group">
+                    <label for="contact-message" class="visually-hidden">Message</label>
                     <textarea
+                      id="contact-message"
                       v-model="formData.message"
                       name="message"
                       placeholder="Message"
+                      aria-label="Your message"
                       rows="4"
                       required
                     ></textarea>
@@ -129,36 +149,27 @@
   </section>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      formData: {
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
-      },
-    };
-  },
-  methods: {
-    sendMessageToWhatsApp() {
-      // Get the form values from data model
-      const { name, email, subject, message } = this.formData;
+<script setup>
+import { reactive } from "vue";
 
-      // Format the message for WhatsApp
-      const whatsappMessage = `Name: ${name}\nEmail: ${email}\nSubject: ${
-        subject || "No Subject"
-      }\nMessage: ${message}`;
+const formData = reactive({
+  name: "",
+  email: "",
+  subject: "",
+  message: "",
+});
 
-      // WhatsApp API link (replace with your phone number)
-      const whatsappURL = `https://wa.me/+6289527374152?text=${encodeURIComponent(
-        whatsappMessage
-      )}`;
+function sendMessageToWhatsApp() {
+  const { name, email, subject, message } = formData;
 
-      // Redirect to WhatsApp
-      window.location.href = whatsappURL;
-    },
-  },
-};
+  const whatsappMessage = `Name: ${name}\nEmail: ${email}\nSubject: ${
+    subject || "No Subject"
+  }\nMessage: ${message}`;
+
+  const whatsappURL = `https://wa.me/+6289527374152?text=${encodeURIComponent(
+    whatsappMessage
+  )}`;
+
+  window.open(whatsappURL, "_blank", "noopener,noreferrer");
+}
 </script>

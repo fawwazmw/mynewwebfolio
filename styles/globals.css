@@ -156,14 +156,6 @@
   margin-top: 15px !important;
 }
 
-.sub-menu {
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-  display: block !important;
-  padding: 0 !important;
-}
-
 .accordion-info.sub-open {
   overflow: unset;
   padding: 0 0 !important;
